@@ -1,0 +1,14 @@
+.dropdown-item:hover{
+    color: black;
+}
+.dropdown-item{
+    color: white;
+}
+.custom-tooltip {
+    background-color: rgba(0, 0, 0, 0);
+    /* Other styles you may want to apply */
+  }
+  
+  .dropdown-menu li:hover{
+    background-color: transparent !important;
+  }

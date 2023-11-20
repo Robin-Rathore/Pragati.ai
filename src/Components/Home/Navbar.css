@@ -1,0 +1,49 @@
+.main-header{
+    /* position: fixed; */
+    width: 95%;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-name{
+    font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: #43cdc9;
+  position: relative;
+  left: -18px;
+  font-weight: 600;
+}
+.logo{
+    flex: 4;
+}
+.logo img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    top: -4px;
+    right: -3px;
+}
+
+.help a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #42cfc9;
+}
+
+.feed-back a{
+    text-decoration: none;
+    color: #42cfc9;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    position: relative;
+    background: transparent;
+}
